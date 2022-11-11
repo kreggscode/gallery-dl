@@ -1,0 +1,13 @@
+The stable releases of gallery-dl are distributed on PyPI and can be easily installed or upgraded using pip:
+
+python3 -m pip install -U gallery-dl
+
+
+Installing the latest dev version directly from GitHub can be done with pip as well:
+
+python3 -m pip install -U -I --no-deps --no-cache-dir https://github.com/mikf/gallery-dl/archive/master
+
+
+To use gallery-dl simply call it with the URLs you wish to download images from:
+
+gallery-dl [OPTION]... URL...
